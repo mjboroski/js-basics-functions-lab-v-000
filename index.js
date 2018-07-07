@@ -1,9 +1,9 @@
 function distanceFromHqInBlocks(street){
-  return |street - 42|
+  return Math.abs(street - 42)
 }
 
 function distanceFromHqInFeet(){
-
+  distanceFromHqInBlocks(street)
 }
 
 function distanceTravelledInFeet(){
