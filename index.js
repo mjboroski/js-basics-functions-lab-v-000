@@ -2,7 +2,7 @@ function distanceFromHqInBlocks(street){
   return Math.abs(street - 42)
 }
 
-function distanceFromHqInFeet(){
+function distanceFromHqInFeet(street){
   return 264 * distanceFromHqInBlocks(street)
 }
 
